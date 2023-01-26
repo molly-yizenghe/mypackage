@@ -6,5 +6,6 @@
 #' data_sim()
 
 data_sim <- function(n){
-  runif(n,1,30)
+  base <- round(runif(n,15,30),0)
+  post_base <- round(runif(n,1,30),0)
 }
